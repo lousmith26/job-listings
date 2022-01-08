@@ -1,38 +1,64 @@
-.App {
-  text-align: center;
+.jobTitle {
+    color: hsl(180, 14%, 20%) !important;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.jobTitleHover {
+    color: hsl(180, 8%, 52%);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.showSideSelect {
+    width: 0.5rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.hideSideSelect {
+    width: 0rem;
 }
 
-.App-link {
-  color: #61dafb;
+.tablet {
+    background-color: hsl(180, 31%, 95%);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.filterArea {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    height: 4rem;
+    position: absolute;
+    top: 8rem;
+}
+
+.filterTablet {
+    display: flex;
+    width: max-content;
+    height: max-content;
+    background-color: hsl(180, 31%, 95%) !important;
+    margin-left: 2rem;
+}
+
+.filterTextArea {
+    padding: .6rem .0rem .6rem .6rem;
+}
+
+.removeIconArea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(180, 8%, 52%) !important;
+    min-width: 3rem !important;
+    min-height: 100% !important;
+    margin-left: 1rem !important;
+}
+
+.removeIconArea:hover {
+    background-color: hsl(180, 14%, 20%) !important;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.removeIcon {
+    margin-left: 1rem;
+}
+
+.hide {
+    display: none;
 }
